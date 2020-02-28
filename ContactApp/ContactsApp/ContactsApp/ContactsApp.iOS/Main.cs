@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace ContactApplication.iOS
+namespace ContactsApp.iOS
 {
     public class Application
     {

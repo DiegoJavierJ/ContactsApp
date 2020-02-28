@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6A9E815E-2B1A-4B6B-8CC9-1C0348FAC8CD}</ProjectGuid>
+    <ProjectGuid>{6DDDCA41-1E15-4252-96FF-6178387B234C}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ContactApp.iOS</RootNamespace>
+    <RootNamespace>ContactsApp.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>ContactApp.iOS</AssemblyName>
+    <AssemblyName>ContactsApp.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -122,17 +122,14 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PropertyChanged.Fody">
-      <Version>3.2.6</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\ContactApp\ContactApp.csproj">
-      <Project>{D3560D28-30FB-468D-98E5-D623009A0DC9}</Project>
-      <Name>ContactApp</Name>
+    <ProjectReference Include="..\ContactsApp\ContactsApp.csproj">
+      <Project>{E8663D6D-DB5D-41E1-991C-ED25CACEAD07}</Project>
+      <Name>ContactsApp</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

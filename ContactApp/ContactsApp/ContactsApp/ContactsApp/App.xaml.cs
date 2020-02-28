@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ContactsApp.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ContactApplication
+namespace ContactsApp
 {
     public partial class App : Application
     {
@@ -10,7 +11,7 @@ namespace ContactApplication
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new ContactPage());
         }
 
         protected override void OnStart()
